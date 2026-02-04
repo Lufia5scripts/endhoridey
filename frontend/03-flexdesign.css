@@ -3,9 +3,8 @@
       display: flex; 
       justify-content: space-between; 
       align-items: flex-start; 
-      gap: 30px; 
       margin-bottom: 60px; 
-
+      padding: 0 40px;
     } 
 
 
