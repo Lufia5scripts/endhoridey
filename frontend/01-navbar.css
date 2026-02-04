@@ -1,0 +1,23 @@
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li{
+    font-family: "Merriweather";
+    margin-left: 7.5em;
+}
+
+
+nav a{                           /** anchor text the actual words in the navbar**/
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #000;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
