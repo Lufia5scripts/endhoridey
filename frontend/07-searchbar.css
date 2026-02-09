@@ -1,4 +1,4 @@
-.eh{
+.y{
 font-family: "Merriweather";
   width: 70%;
   padding: 12px;
@@ -17,12 +17,12 @@ font-family: "Merriweather";
      align-items: flex-start; 
      gap: 5em; 
      width: 100%;
-    max-width: 1400px;  /** if gap aint working its got to do with the width and max-width, increase them **/
+    max-width: 1400px;  
     margin-left: 1em;
     min-height: 150px;
  }
 
-.eh {
+.x {
   background:#ffffff;
   border-radius: 10px;
   padding: 20px;
@@ -32,7 +32,7 @@ font-family: "Merriweather";
 
 }
 
-.eh:hover {
+.x:hover {
   transition: 100ms ease;
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
   scale: 1.05;
@@ -50,3 +50,4 @@ border-radius: 16px;
 
 
 }
+
