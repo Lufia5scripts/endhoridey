@@ -1,3 +1,13 @@
+.eh{
+font-family: "Merriweather";
+  width: 70%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: large;
+}
 
 
 
@@ -7,12 +17,12 @@
      align-items: flex-start; 
      gap: 5em; 
      width: 100%;
-    max-width: 1400px;
+    max-width: 1400px;  /** if gap aint working its got to do with the width and max-width, increase them **/
     margin-left: 1em;
     min-height: 150px;
  }
 
-.output-card {
+.eh {
   background:#ffffff;
   border-radius: 10px;
   padding: 20px;
@@ -22,8 +32,21 @@
 
 }
 
-.output-card:hover {
+.eh:hover {
   transition: 100ms ease;
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
   scale: 1.05;
+}
+
+
+.submit-button{
+color: #fff;
+background-color: #000;
+font-family: "Merriweather";
+width: 70%;
+padding: 12px;
+margin-bottom: 20px;
+border-radius: 16px;
+
+
 }
