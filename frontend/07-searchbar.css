@@ -1,0 +1,29 @@
+
+
+
+ .dashboard-hero {
+     display: flex; 
+     justify-content: space-between; 
+     align-items: flex-start; 
+     gap: 5em; 
+     width: 100%;
+    max-width: 1400px;
+    margin-left: 1em;
+    min-height: 150px;
+ }
+
+.output-card {
+  background:#ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  height:325px;
+  text-align: center;
+
+}
+
+.output-card:hover {
+  transition: 100ms ease;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  scale: 1.05;
+}
